@@ -51,11 +51,7 @@ public class CalculatorTest {
 		capabilities.setCapability(MobileCapabilityType.APP_PACKAGE, "com.android.calculator2");
 		capabilities.setCapability(MobileCapabilityType.APP_ACTIVITY, "Calculator");
 
-		String apiKey = System.getenv("TESTOBJECT_API_KEY");
-		
-		System.out.println("API_KEY " + apiKey);
-		
-		capabilities.setCapability("testobject_api_key", apiKey);
+		capabilities.setCapability("testobject_api_key", System.getenv("TESTOBJECT_API_KEY"));
 		capabilities.setCapability("testobject_app_id", "1");
 		capabilities.setCapability("testobject_device", device);
 

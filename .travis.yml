@@ -4,4 +4,4 @@ jdk:
 - openjdk6
 env:
   global:
-    secure: atEs7S8GuQ5dFeoWNNwVTHjwG+uH0gQutgZhuj7Fu5wApBTTEfn7eNtKFuwX9FnYMiD/YbvsL/dabQIzJ1bfUpCE7pJMwxoFq2mFXq5aXuDfsVD797ib7ZzN4uqTQqZpBL+lfaTR+nckLXQH9LsRr2Iwx1Qz29JmvecAUzyljNw=
+  - secure: bjb3OYmUEaDRAEfiV365Tg4L4YUqoJvLCfPIifLGHNj1I3udu8xy+SprcqDyTxFLIJqYwTGjn5x63e3WOpKQoGmlxnA2O9a6JSNcNtqBOKLm40zcbJwPQQhhjTU3fcGlA8oLcZC8OLEID7goEoButvjxTao5OjYF80odjAmOJvg=
