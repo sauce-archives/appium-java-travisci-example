@@ -10,8 +10,6 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
@@ -30,7 +28,6 @@ import org.openqa.selenium.support.PageFactory;
 @RunWith(Parallelized.class)
 public class CalculatorTest {
 
-	private static final String LOCALHOST = "http://127.0.0.1:4723/wd/hub";
 	private static final String TESTOBJECT = "https://app.testobject.com:443/api/appium/wd/hub";
 
 	@Parameters
@@ -75,9 +72,7 @@ public class CalculatorTest {
 		
 		Assert.assertEquals("7", calculator.getResult());
 
-		
-        byte[] image = driver.getScreenshotAs(OutputType.BYTES);
-        //Files.write(Paths.get("/home/aluedeke/Desktop/" + device + ".png"), image);
+		driver.getScreenshotAs(OutputType.BYTES);
 	}
 
 	public static class CalculatorActivityPageObject {
