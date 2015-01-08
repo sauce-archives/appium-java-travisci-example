@@ -4,3 +4,6 @@ jdk:
 env:
   global:
   - secure: bjb3OYmUEaDRAEfiV365Tg4L4YUqoJvLCfPIifLGHNj1I3udu8xy+SprcqDyTxFLIJqYwTGjn5x63e3WOpKQoGmlxnA2O9a6JSNcNtqBOKLm40zcbJwPQQhhjTU3fcGlA8oLcZC8OLEID7goEoButvjxTao5OjYF80odjAmOJvg=
+notifications:
+  slack:
+    secure: E6Uc45nIwFpxrw3id/LUst82gfzAMH17FzhIn69inYAGWwQBfa6cRpY0ykZLOPUHiHNZU/+gJ3jsSsro4wFkwfJnq62BUN22xCsSlRDRjh/3lPCXrEyzLftL2/UpTdhi1GSxV+ZrO0zHM5gEPVGE6/5dB0macRNHU/caq8uZnp0=
