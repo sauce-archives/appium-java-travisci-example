@@ -35,7 +35,7 @@ public class CalculatorTest {
 
 	@Parameters
 	public static List<String[]> data() {
-		return Arrays.asList(new String[][]{ {"Samsung_Google_Nexus_10_P8110_real"}, {"LG_Nexus_4_E960_real"}, {"Acer_Liquid_Z4_real"} });
+		return Arrays.asList(new String[][]{ {"Samsung_Google_Nexus_10_P8110_real"}, {"LG_Nexus_4_E960_real"} });
 	}
 
 	private AppiumDriver driver;
